@@ -26,8 +26,5 @@
     <ClCompile Include="Riders of Fortune 2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="saveGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

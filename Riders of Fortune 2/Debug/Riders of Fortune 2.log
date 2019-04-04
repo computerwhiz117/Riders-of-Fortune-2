@@ -1,0 +1,21 @@
+﻿  pch.cpp
+  Riders of Fortune 2.cpp
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(10): error C2513: 'const int': no variable declared before '='
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(11): error C2513: 'const int': no variable declared before '='
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(12): error C2065: 'rows': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(12): error C2065: 'columns': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(56): error C2601: 'changePosition': local function definitions are illegal
+  c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(18): note: this line contains a '{' which has not yet been matched
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(108): error C2601: 'drawBoard': local function definitions are illegal
+  c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(18): note: this line contains a '{' which has not yet been matched
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(61): error C2065: 'columns': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(62): error C2065: 'columns': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(72): error C2065: 'rows': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(73): error C2065: 'rows': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(84): error C2065: 'columns': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(96): error C2065: 'rows': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(111): error C2065: 'rows': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(113): error C2065: 'columns': undeclared identifier
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(147): error C2059: syntax error: 'else'
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(148): error C2143: syntax error: missing ';' before '{'
+c:\users\carlos\source\repos\riders of fortune 2\riders of fortune 2\riders of fortune 2.cpp(148): error C2447: '{': missing function header (old-style formal list?)
