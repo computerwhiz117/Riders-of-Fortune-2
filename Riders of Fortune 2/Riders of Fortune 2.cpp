@@ -7,8 +7,8 @@
 
 using namespace std;
 
-const int = 8;
-const int = 8;
+const int rows = 8;
+const int columns = 8;
 char gameBoard[rows][columns];
 
 void drawBoard(int, int);
@@ -17,7 +17,6 @@ void changePosition(int &, int &, int &);
 int main()
 {
 	int i;
-	int fight;
 	int Yarra = 100;
 	int *weapon;
 	int battle;
@@ -25,7 +24,7 @@ int main()
 	int *HP;
 	int attack = 0;
 	int enemy = 5;
-    cout << "Welcome to Riders of Fortune 2.0. Choose to:\n";
+	cout << "Welcome to Riders of Fortune 2.0. Choose to:\n";
 	cout << "1. Start a new game";
 	cout << "2. Load a Saved Game";
 	cin >> i;
@@ -60,8 +59,9 @@ int main()
 		}
 		return 0;
 	}
+}
 
-	void changePosition(int &positionX, int &positionY, int spacesToMove) {
+	void changePosition(int &positionX, int &positionY, int &spacesToMove) {
 		while (spacesToMove > 0)
 		{
 			//position is in the first row and moving right
@@ -81,6 +81,12 @@ int main()
 					spacesToMove = spacesToMove - (rows - (positionX + 1));
 					positionX = 7;
 
+					int enemy = 10;
+					int fight;
+					int *XP;
+					int *HP;
+						int Yarra;
+
 					cout << "You encountered an enemy, choose how many fights";
 					cin >> fight;
 
@@ -90,9 +96,9 @@ int main()
 
 						Yarra = Yarra + 2;
 
-						cout << "You have defeated the enemy, your XP went down to "; << XP << endl;
+						cout << "You have defeated the enemy, your XP went down to " << XP << endl;
 					}
-					else if
+					else if (fight >= enemy)
 					{
 						HP = &Yarra;
 
@@ -168,7 +174,6 @@ int main()
 
 
 		
-	}
 	//ofstream myfile("saveGame.txt");
 	//else if (myfile.is_open())
 	//{
@@ -178,10 +183,10 @@ int main()
 			//myfile.close();
 		//}
 	//}
-	else
-	{
-		cout << "You have no saved game";
-	}
+	//else
+	//{
+		//cout << "You have no saved game";
+	//}
 //}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
