@@ -37,8 +37,8 @@ int main()
 		//myfile.close();
 
 		cout << "After you obtained the Chalice of Knowledge, you decided to explore a new dungeoun but you enter in you encountered new enemies and monsters." << endl;
-		cout << "Your adventure begins";
-		cout << "Riders of Fortune 2.0";
+		cout << "Your adventure begins" << endl;
+		cout << "Riders of Fortune 2.0" << endl;
 
 		int spacesToMove = 0;
 		//Default the position of our game piece
@@ -87,7 +87,7 @@ int main()
 					int *HP;
 						int Yarra;
 
-					cout << "You encountered an enemy, choose how many fights";
+					cout << "You encountered an enemy, choose how many hits";
 					cin >> fight;
 
 					if (fight >= enemy)
@@ -96,7 +96,7 @@ int main()
 
 						Yarra = Yarra + 2;
 
-						cout << "You have defeated the enemy, your XP went down to " << XP << endl;
+						cout << "You have defeated the enemy, your XP went up to " << XP << endl;
 					}
 					else if (fight >= enemy)
 					{
@@ -124,6 +124,16 @@ int main()
 				if ((columns - (positionY + 1)) + spacesToMove >= columns) {
 					spacesToMove = spacesToMove - (positionY);
 					positionY = 0;
+
+					int weapon;
+					int Yarra;
+					int *XP;
+					
+					XP = &Yarra;
+					Yarra = Yarra + 2;
+
+					cout << "You found a weapon " << endl;
+					cout << "Your XP went up to " << XP << endl;
 				}
 				else {
 					positionY = positionY - spacesToMove;
@@ -136,6 +146,17 @@ int main()
 				if ((rows - (positionX + 1)) + spacesToMove >= rows) {
 					spacesToMove = spacesToMove - (positionX);
 					positionX = 0;
+
+					//int item;
+					//int Yarra;
+					//int *XP;
+
+					//XP = &Yarra;
+					//Yarra = Yarra + 2
+
+					//cout << "Your XP went up to" << XP << endl;
+
+
 				}
 				else {
 					positionX = positionX - spacesToMove;
@@ -157,7 +178,7 @@ int main()
 				if (y == 0 || y == 7 || x == 0 || x == 7) {
 					if (positionX == x && positionY == y)
 					{
-						gameBoard[x][y] = 'P';
+						gameBoard[x][y] = 'S';
 					}
 					else {
 						gameBoard[x][y] = '*';
